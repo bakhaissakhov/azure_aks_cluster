@@ -3,6 +3,7 @@
  To Run the file 
 > terraform init 
 initialize the current directory of Terraform files
+
 > terraform plan
 process the Terraform files and create an execution plan for what infrastructure needs to be created or updated according to the Infrastructure as Code contained within the Terraform files.
 > terraform apply
