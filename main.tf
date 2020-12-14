@@ -1,6 +1,6 @@
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "West Europe"
+resource "azurerm_resource_group" "rg-log-analyzer" {
+  name     = "rg-log-analyzer"
+  location = "North Central US"
 }
 
 resource "azurerm_kubernetes_cluster" "example" {
