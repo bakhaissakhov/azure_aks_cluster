@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "bakhaissakhov" {
   location = "North Central US"
 }
 
-resource "azurerm_kubernetes_cluster" "bekadevops" {
+resource "azurerm_kubernetes_cluster" "bakhaissakhov" {
   name                = "bakhaissakhov-aks1"
   location            = azurerm_resource_group.bakhaissakhov.location
   resource_group_name = azurerm_resource_group.bakhaissakhov.name
