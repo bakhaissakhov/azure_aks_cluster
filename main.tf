@@ -8,10 +8,10 @@ resource "azurerm_resource_group" "bakhaissakhov" {
 }
 
 resource "azurerm_kubernetes_cluster" "bekadevops" {
-  name                = "bekadevops-aks1"
-  location            = azurerm_resource_group.bekadevops.location
-  resource_group_name = azurerm_resource_group.bekadevops.name
-  dns_prefix          = "bekadevopsaks1"
+  name                = "bakhaissakhov-aks1"
+  location            = azurerm_resource_group.bakhaissakhov.location
+  resource_group_name = azurerm_resource_group.bakhaissakhov.name
+  dns_prefix          = "bakhaissakhovaks1"
 
   default_node_pool {
     name       = "default"
